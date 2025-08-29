@@ -1,0 +1,80 @@
+
+.contactMe{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    color: var(--yellow-theme-main-color);
+    gap:60px;
+    padding:40px;
+    flex-wrap: wrap;
+}
+.welcomeMessage{
+    flex:1;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 5%;
+}
+ h1{
+    font-size: xx-large;
+    padding:20px;   
+}
+p{
+    font-size: 2.0rem;
+}
+.socialIcon{
+    font-size: 30px;
+    padding:40px;
+    padding: 20px;
+    margin:10px;
+   
+}
+
+.LinkedIn{
+       margin:10px;
+    }
+.Form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    font-size:1.5rem;
+}
+.name{
+    font-size: 2.0rem;
+}
+.Form label{
+    padding:10px;
+    margin-top: 20px;
+}
+.Form input,
+.Form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  font-size: 2.0rem;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+
+}
+textarea:hover,input:hover{
+   transform: scale(1.05);
+  border-color: var(--yellow-theme-main-color);
+  box-shadow: 0 0 8px var(--yellow-theme-main-color); 
+
+}
+.send{
+    padding:10px;
+}
+.submit{
+    width:100%;
+    padding:7px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+   
+}
+.submit:hover{
+    background-color: grey;
+}

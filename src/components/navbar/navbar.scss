@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navbar{
     background-color: #00132c ;
     height: 60px;
@@ -6,6 +10,7 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    margin-top: 10px;
 
 &_container{
     display: flex;
@@ -26,8 +31,10 @@
 display: flex;
 list-style: none;
 text-align: center;
+margin-top: 40px;
+
 &_item{
-line-height: 40px;
+line-height: 30px;
 margin-right:1.5rem;
 font-size: 1.6rem;     
     &::after{

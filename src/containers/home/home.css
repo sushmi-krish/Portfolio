@@ -1,0 +1,44 @@
+.Profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  flex-wrap: wrap; /* for mobile responsiveness */
+}
+
+.ProfileMessage {
+  flex: 1;
+  max-width: 600px;
+}
+
+.ProfileMessage h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.ProfileMessage h2 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.ProfileMessage p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.profileImage img {
+  width: 300px;
+  height: 300px;
+  border-radius: 60%;
+  object-fit: cover;
+}
+.hire{
+  text-decoration: none;
+  color:black;
+  font-size: large;
+}

@@ -1,0 +1,56 @@
+.portfolio-title {
+  color: var(--yellow-theme-main-color);
+  
+  text-align: center;
+  margin: 20px 0;
+}
+.portfolio-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-auto-flow: row;                /* Fill columns first (column-wise) */
+  gap: 10px;       
+  width:400px;                     /* spacing between cards */
+}
+.portfolio-project {
+  background-color: #0f172a;
+  color: #e0e0e0;
+  padding: 10px 10px;
+  margin: 20px 0;
+  margin-left:13px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.portfolio{
+    margin:5px;
+}
+.portfolio-project h2 {
+    font-size: 2rem;    
+    color:var(--yellow-theme-main--color);
+
+}
+.portfolio-projects a{
+    text-decoration: none;
+    color: #666;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.portfolio-projects a:hover{
+    color: var(--yellow-theme-main-color);
+}
+.portfolio-projects p {
+  
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.portfolio-project:hover{
+        transform: scale(1.05);
+  border-color: var(--yellow-theme-main-color);
+  box-shadow: 0 0 8px var(--yellow-theme-main-color); 
+}

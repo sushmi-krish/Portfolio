@@ -1,0 +1,88 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.AboutMe{
+  background-color: var(--yellow-theme-background-color);
+  color: var(--yellow-theme-main-color);
+}
+.Message{
+    margin-bottom: 20px;
+
+}
+.Message h1{
+  color: var(--yellow-theme-main-color);
+  font-weight: bold;
+ text-align: left;
+ font-size: 2.2rem;
+ }
+.Message h1 span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.Message p {
+    text-align: left;
+    max-width: 100%;     /* Optional: for better readability */
+    line-height: 1.5;
+    font-size: 1.9rem;
+    text-indent: 8.5em;
+    color:var(--yellow-theme-main-color)
+}
+
+.personalInfoHeading {
+    color: var(--yellow-theme-main-color);
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: left;
+    text-decoration: underline  ;
+    
+}
+
+.personalInfoItem {
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 0px; /* fixed height */
+  font-size: 1.9rem;
+  padding-left: 25px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.label{
+  font-weight: bold;
+  color:  var(--yellow-theme-sub-text-color);
+  width: 200px; /* fixed width for label */
+  text-align: left;
+}
+.value {
+  margin-left: 10px;
+  text-align: left;
+  color: var(--yellow-theme-main-color);
+  font-weight: normal;
+}
+.resumeLink {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: var(--yellow-theme-main-color);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  border:   var(--yellow-theme-main-color) 1px solid;
+  font-size: 2.0rem;
+}
+
+.resumeLink:hover {
+  background-color:#666;
+}

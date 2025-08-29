@@ -16,10 +16,7 @@ const data =[
         label:'Skills',
         to:'/skills'
     },
-    {
-        label:'resume',
-        to:'/resume',
-    },
+   
     {
         label:'Portfolio',
         to:'/portfolio',
