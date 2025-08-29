@@ -6,7 +6,7 @@ const Skills = ()=>{
   <>
   
   <section className="skills-wapper">
-    <h1 className="title">Portfolio</h1>
+    <h1 className="title">Skills</h1>
     <div className="skills-container">
       <h1>Front End</h1>
       <div className="vertical-line"></div>

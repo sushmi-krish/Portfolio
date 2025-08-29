@@ -17,7 +17,7 @@ import { SlSocialGithub, SlSocialLinkedin } from "react-icons/sl";
         alert(`Thanks for reaching out. This is a demo mode. Please email me directly at "sushmithakrishnamoorthy@gmail.com"`);
         //Refresh the page
         setTimeout(()=>{
-            window.location.reload();
+           navigate("/");
     },1500)
     };
 
