@@ -8,9 +8,9 @@ const Home = ()=>{
         <section className="Profile">
             <div className="profileImage">
      <img 
-      src="./Profile.JPG" 
+      src={`${process.env.PUBLIC_URL}/Profile.JPG`} 
       alt="Developer placeholder" 
-      style={{ borderRadius: '50%', marginBottom: '20px' }}
+      style = {{ borderRadius: '50%', marginBottom: '20px' }}
     />
     </div>
     <div className="ProfileMessage">
