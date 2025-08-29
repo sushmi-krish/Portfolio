@@ -30,13 +30,7 @@ img {
 }
 
 
-.portfolio {
-  margin: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .portfolio-project h2 {
     font-size: 2rem;    
     color:var(--yellow-theme-main--color);
