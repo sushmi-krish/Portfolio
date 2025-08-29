@@ -28,8 +28,11 @@ img {
   border-radius: 8px;
 }
 .portfolio{
-    margin: 20px;
-    padding: 10px;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
     
 }
 .portfolio-project h2 {
