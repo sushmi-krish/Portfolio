@@ -6,8 +6,8 @@
 }
 .portfolio-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
   max-width: 1200px;
   width: 100%;
   padding: 20px;
@@ -28,8 +28,6 @@ img {
   object-fit: contain;
   border-radius: 8px;
 }
-
-
 
 .portfolio-project h2 {
     font-size: 2rem;    
@@ -54,9 +52,4 @@ img {
         transform: scale(1.05);
   border-color: var(--yellow-theme-main-color);
   box-shadow: 0 0 8px var(--yellow-theme-main-color); 
-}
-.portfolio-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }
