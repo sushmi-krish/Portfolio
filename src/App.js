@@ -16,7 +16,7 @@
     <Navbar/>
     {/*main page content*/}
     <Routes>
-      <Route index path={<Home/>} />
+      <Route index path="/" element={<Home/>} />
       <Route  path='/about' element={<AboutMe/>} />
       <Route  path='/portfolio' element={<Portfolio/>} />
       <Route  path='/skills' element={<Skills/>} />
