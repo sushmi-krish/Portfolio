@@ -8,7 +8,7 @@ const Home = ()=>{
         <section className="Profile">
             <div className="profileImage">
      <img 
-      src="Profile.jpg" 
+      src="/displayPic.jpg" 
       alt="Developer placeholder" 
       style = {{ borderRadius: '50%', marginBottom: '20px' }}
     />
