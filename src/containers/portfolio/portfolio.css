@@ -24,14 +24,15 @@
   color: #e0e0e0;
   padding: 20px;
   margin: 20px 0;
-  margin-left:13px;
+ 
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
 }
 img {
-  width: 250px;
-  height: 300px;
+  width: 100px;
+  max-width: 250px;
+  height: auto;
   object-fit: contain;
   border-radius: 8px;
   margin-bottom: 16px;
