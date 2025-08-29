@@ -29,7 +29,8 @@ img {
 }
 .portfolio{
     margin: 20px;
-    ;
+    padding: 10px;
+    
 }
 .portfolio-project h2 {
     font-size: 2rem;    

@@ -1,7 +1,6 @@
 import React from "react";
-//import { Link } from "react-router-dom";
-
-import'./home.css'
+import { Link } from "react-router-dom";
+import'./Home.css'
 const Home = ()=>{
     return(
         <>
@@ -23,7 +22,7 @@ const Home = ()=>{
     <p>
       Let’s build something amazing together.
     </p>
-  <a href="Contact" className="hire">Hire me</a>
+  <Link to="/contact" className="hire">Hire me</Link>
  
 
 </div>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './contact.css';
+import './Contact.css';
 import { SlSocialGithub, SlSocialLinkedin } from "react-icons/sl";
  const  Contact = ()=>{
     const [message, setMessage] = useState('');
