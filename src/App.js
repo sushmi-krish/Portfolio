@@ -1,5 +1,5 @@
-  import './App.css';
-  import{Routes, Route} from 'react-router-dom';
+import './App.css';
+import{Routes, Route} from 'react-router-dom';
   import Home from './containers/home/home';
   import AboutMe from './containers/AboutMe/about';
   import Skills from './containers/skills/skills';
