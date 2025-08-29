@@ -6,11 +6,11 @@
 }
 .portfolio-projects {
   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
   max-width: 1200px;
   width: 100%;
-  padding:  20px;                    /* spacing between cards */
+  padding: 20px;
 }
 .portfolio-project {
   background-color: #0f172a;
@@ -28,13 +28,14 @@ img {
   object-fit: contain;
   border-radius: 8px;
 }
-.portfolio{
-  margin: 5px;
-  padding: 40px ;
+
+
+.portfolio {
+  margin: 20px;
+  padding: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-    
 }
 .portfolio-project h2 {
     font-size: 2rem;    
@@ -64,5 +65,4 @@ img {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding : 0 20px
 }
