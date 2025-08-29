@@ -22,7 +22,7 @@
 .portfolio-project {
   background-color: #0f172a;
   color: #e0e0e0;
-  padding: 20px 40px;
+  padding: 20px;
   margin: 20px 0;
   margin-left:13px;
   border-radius: 8px;
@@ -30,10 +30,11 @@
   box-sizing: border-box;
 }
 img {
-  width: 400px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   border-radius: 8px;
+  margin-bottom: 16px;
 }
 
 .portfolio-project h2 {
