@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 import './contact.css';
 import { SlSocialGithub, SlSocialLinkedin } from "react-icons/sl";
  const  Contact = ()=>{
     const [message, setMessage] = useState('');
     const [submitted, setSubmitted] = useState(false);
+      const navigate = useNavigate();
     const handleChange =(e)=>{
         const words = e.target.value.trim().split(/\s+/);
         if(words<=250){
