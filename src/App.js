@@ -18,7 +18,7 @@
     <Routes>
       <Route index path='/' element={<Home/>} />
       <Route  path='/about' element={<AboutMe/>} />
-      <Route  path='/portfolio' element={<Portfolio/>} />
+      <Route  path='/Portfolio' element={<Portfolio/>} />
       <Route  path='/skills' element={<Skills/>} />
       <Route  path='/contact' element={<Contact/>} />
     </Routes>
