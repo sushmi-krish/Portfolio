@@ -2,7 +2,7 @@
   color: var(--yellow-theme-main-color);
   
   text-align: center;
-  margin: 20px 0;
+  margin: 10px;
 }
 .portfolio-projects {
   display: grid;
@@ -22,19 +22,19 @@
 .portfolio-project {
   background-color: #0f172a;
   color: #e0e0e0;
-  padding: 20px;
-  margin: 20px 0;
- 
+  padding: 10px;
+  margin: 20px;
+ margin-left: 5px;
   border-radius: 8px;
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
 }
 img {
-  width: 300px;
- height: 400px ;
+  width:  300px;
+ height:  300px ;
   object-fit: contain;
   border-radius: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 
 .portfolio-project h2 {
