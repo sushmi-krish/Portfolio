@@ -63,7 +63,7 @@ return(
         ))}
     </ul>
     </div>
-     <div className="resume-Links">
+     <div className="resumeLinks">
         <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noopener noreferrer" className="resumeLink">view Resume</a>
         </div>
 

@@ -47,7 +47,7 @@ const project= [
         description: "A simple Express.js book review app with JWT authentication, allowing users to search, add, update, and delete reviews securely.",
         image: `${process.env.PUBLIC_URL}/BookReview.PNG`,
         link:"",
-        gitHub: "https://github.co#m/sushmi-krish/expressBookReviews.git",
+        gitHub: "https://github.com/sushmi-krish/expressBookReviews.git",
     },
     {
         id: 7,

@@ -55,7 +55,7 @@
   justify-content: flex-start;
   height: 0px; /* fixed height */
   font-size: 1.9rem;
-  padding-left: 25px;
+  padding:18px 25px;
   box-sizing: border-box;
   width: 100%;
 }
@@ -81,8 +81,46 @@
   border-radius: 6px;
   border:   var(--yellow-theme-main-color) 1px solid;
   font-size: 2.0rem;
+  margin-top: 25px;
 }
 
 .resumeLink:hover {
   background-color:#666;
+}
+@media only screen and (max-width: 800px) {
+  .Message h1,
+  .Message p,
+  .personalInfoHeading,
+  .label,
+  .value {
+    text-align: center;
+  }
+
+  .Message p {
+    text-indent: 0;
+    padding: 0 10px;
+    font-size: 1.4rem;
+  }
+
+  .personalInfoItem {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px 15px;
+    margin:10px
+  }
+
+  .label {
+    width: auto;
+    font-size: 1.6rem;
+  }
+
+  .value {
+    margin-left: 0;
+    font-size: 1.6rem;
+  }
+
+  .resumeLink {
+    font-size: 1.6rem;
+    margin-top: 60px;
+  }
 }
